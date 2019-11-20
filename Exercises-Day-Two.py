@@ -1,162 +1,152 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 19 14:23:03 2019
-
-Exercises --->
+Created on Wed Nov 20 14:14:05 2019
 
 @author: Ammar
 """
 
+# Exercises
+
 # Exercise 1
 # =============================================================================
-# #print ("hello")
-# #print ("\thello")
-# #print ("\t\thello")
+# a = int(input("first num "))
+# b = int(input("second num "))
+# print(a) if a>b else print (b)
 # =============================================================================
 
 # Exercise 2
 # =============================================================================
-# #print ("Orange Academy \n"*20)
+# num = int(input("Your Number "))
+# i = 1
+# 
+# while i !=11:
+#     print(str(num)+" * "+str(i)+"=",num * i)
+#     i += 1
 # =============================================================================
 
 # Exercise 3
-#1.0102.8103.0104.2
-
+# =============================================================================
+# stars = 5
+# for i in range (0, stars):
+#     for j in range(0, i + 1):
+#         print("*", end=" ")
+#     print("\n")
+# for i in range (stars, 0, -1):
+#     for j in range(0, i -1):
+#         print("*", end=" ")
+#     print("\n")
+# =============================================================================
+    
 # Exercise 4
 # =============================================================================
-# num = int(input("First Number "))
-# num2 = int(input("Seconde Number "))
-# print(num * num2)
+# letters = ["x","y","z","a","b","c"]
+# for i in letters:
+#     if i == "a":
+#         continue
+#     elif i == "c":
+#         break
+#     print(i)
+#     
+# output ------>
+# x
+# y
+# z
+# b
 # =============================================================================
-
+    
 # Exercise 5
 # =============================================================================
-# num = int(input("First Number "))
-# num2 = int(input("Seconde Number "))
-# num3 = int(input("Third Number "))
-# num4 = int(input("Forth Number "))
-# num5 = int(input("Fifth Number "))
-# 
-# print(num+num2+num3+num4+num5 / 5)
+# for x in range(12,25,3):
+#     print(x)
+# output -----> 
+# 12
+# 15
+# 18
+# 21
+# 24
 # =============================================================================
-
+    
 # Exercise 6
 # =============================================================================
+# i = 1 
+# while i < 6:
+#     print(i)
+#     if i == 3:
+#         break
+#     i += 1
+# output ----->
 # 1
-# 2.8
-# 1j
-# Orange
-# True
-# 
+# 2
+# 3
 # =============================================================================
 
 # Exercise 7
 # =============================================================================
-# Outputs ---> 
-
-# orange
-# 1
-# 100
-# -10
-# 
+# num = int(input("Your Number "))
+# nu = 0
+# for i in range(0,num):
+#     nu += i
+# print(nu)
+# =============================================================================
+    
+# Exercise 8
+# =============================================================================
+# num = int(input("Your Number "))
+# if num %2 == 0:
+#     print("num is even",num)
+# else:
+#     print("num is odd",num)
 # =============================================================================
 
-# Exercise 8 
-#5x = 10 Variable Can't Start With A number
-#print(5x)
-
-#X_q$ = "Orange" Variable Can't Containt A Symbols
-#print(X_q$)
-
-#AB = 14 Nothing Wrong
-#print(AB)
-
-#print("10"*10) Multiblying 10 And brinting it 10 times
-
-# Exercise 9
-# ----------------------------
-
-# Exercise 10 
+# Exercise 9 
 # =============================================================================
-# x5 = 10
-# print(x5)
-# 
-# X_q = "Orange"
-# print(X_q)
-# 
-# AB = 14
-# print(AB)
-# 
-# print(10*10)
-# 
+#؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟
+# for i in range(9):
+#     for j in range (9 - i):
+#         print(" ",end = " ")
+#     for j in range(1,i):
+#         print(j,end=" ")
+#     for i in range(i,0,-1):
+#         print(i,end=" ")
+#     print()
+# for i in range(9,0,-1):
+#     for j in range (9 - i):
+#         print(" ",end = " ")
+#     for j in range(1,i):
+#         print(j,end=" ")
+#     for i in range(i,0,-1):
+#         print(i,end=" ")
+#     print()
+# =============================================================================
+
+# Exercise 10
+# =============================================================================
+# while True:
+#     try: 
+#         n = input("Please enter an integer: ") 
+#         n = int(n)
+#         break 
+#     except ValueError: print("Number Enterd Is not an intger") 
+# print("Number entered is an integer")
 # =============================================================================
 
 # Exercise 11
 # =============================================================================
-# #print("Hello , World") Hello , World
-# #print("cheers , mate") cheers , mate
-# =============================================================================
-
-# Exercise 12
-# =============================================================================
-#name = str(input("Name: "))
-#year = int(input("Year You Were Porn In: "))
-#print("You Are Going To Turn 100 on ",year+100)
-# =============================================================================
-
-# Exercise 13
-# =============================================================================
-# base = int(input("Base: "))
-# hight = int(input("Height: "))
+# try:
+#     a = 3
+#     if a < 4:
+#         b = a/(a-3)
+#     print("Value of b =",b)
+# except (ZeroDivisionError,NameError):
+#         print("\nErorr Occurred and Handled")
 # 
-# print((base*hight)/2)
-# =============================================================================
-
-# Exercise 14
-# =============================================================================
-# x = 11
-# y = 3 
-# print(x+y)
-# print(x-y)
-# print(x*y)
-# print(x/y)
-# print(x//y)
-# print(x%y)
-# print(abs(x*-1))
-# print(int(x))
-# print(float(x))
-# print(divmod(x,y))
-# print(pow(x,y))
-# print(x**y)
-# print(x>y)
-# print(x==y)
-# print(x!=y)
-# =============================================================================
-
-# Output -------->
-
-# =============================================================================
-# 14
-# 8
-# 33
-# 3.6666666666666665
-# 3
-# 2
-# 11
-# 11
-# 11.0
-# (3, 2)
-# 1331
-# 1331
-# True
-# False
-# True
-# 
+# output ----> 
+# Erorr Occurred and Handled
 # =============================================================================
 
 
 
 
-
-
-
+    
+    
+    
